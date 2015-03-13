@@ -1,0 +1,315 @@
+The system is: Windows - 6.1 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine 버전 4.0.30319.18408
+[Microsoft .NET Framework, 버전 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2014-11-20 오전 10:23:55
+1 노드의 "E:\newData\libsrc\zlib\msvc\CMakeFiles\3.0.1\CompilerIdC\CompilerIdC.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "Debug\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\CompilerIdC.unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\CompilerIdC.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"E:\newData\libsrc\zlib\msvc\CMakeFiles\3.0.1\CompilerIdC\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> E:\newData\libsrc\zlib\msvc\CMakeFiles\3.0.1\CompilerIdC\.\CompilerIdC.exe
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\CompilerIdC.exe;#1" /manifest Debug\CompilerIdC.exe.intermediate.manifest
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  "Debug\CompilerIdC.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+  "Debug\CompilerIdC.lastbuildstate"에 연결(touching)하고 있습니다.
+"E:\newData\libsrc\zlib\msvc\CMakeFiles\3.0.1\CompilerIdC\CompilerIdC.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+
+빌드했습니다.
+    경고 0개
+    오류 0개
+
+경과 시간: 00:00:00.40
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "E:/newData/libsrc/zlib/msvc/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/newData/libsrc/zlib/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec561543864.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine 버전 4.0.30319.18408
+[Microsoft .NET Framework, 버전 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2014-11-20 오전 10:23:56
+1 노드의 "E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec561543864.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTryCompileExec561543864.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTryCompileExec561543864.dir\Debug\cmTryCompileExec561543864.unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec561543864.dir\Debug\\" /Fd"cmTryCompileExec561543864.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
+  Microsoft (R) 32비트 C/C++ 최적화 컴파일러 버전 16.00.40219.01(80x86)
+  Copyright (c) Microsoft Corporation. 모든 권리 보유.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec561543864.dir\Debug\\" /Fd"cmTryCompileExec561543864.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
+  
+  testCCompiler.c
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec561543864.dir\Debug\cmTryCompileExec561543864.exe.embed.manifest.res" cmTryCompileExec561543864.dir\Debug\cmTryCompileExec561543864_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec561543864.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec561543864.dir\Debug\cmTryCompileExec561543864.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:/newData/libsrc/zlib/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec561543864.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/newData/libsrc/zlib/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec561543864.lib" /MACHINE:X86 cmTryCompileExec561543864.dir\Debug\cmTryCompileExec561543864.exe.embed.manifest.res
+  cmTryCompileExec561543864.dir\Debug\testCCompiler.obj  /machine:X86 /debug 
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTryCompileExec561543864.dir\Debug\cmTryCompileExec561543864.exe.embed.manifest" /manifest cmTryCompileExec561543864.dir\Debug\cmTryCompileExec561543864.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec561543864.dir\Debug\cmTryCompileExec561543864.exe.embed.manifest.res" cmTryCompileExec561543864.dir\Debug\cmTryCompileExec561543864_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec561543864.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec561543864.dir\Debug\cmTryCompileExec561543864.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:/newData/libsrc/zlib/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec561543864.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/newData/libsrc/zlib/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec561543864.lib" /MACHINE:X86 cmTryCompileExec561543864.dir\Debug\cmTryCompileExec561543864.exe.embed.manifest.res
+  cmTryCompileExec561543864.dir\Debug\testCCompiler.obj  /machine:X86 /debug 
+  cmTryCompileExec561543864.vcxproj -> E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec561543864.exe
+FinalizeBuildStatus:
+  "cmTryCompileExec561543864.dir\Debug\cmTryCompileExec561543864.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+  "cmTryCompileExec561543864.dir\Debug\cmTryCompileExec561543864.lastbuildstate"에 연결(touching)하고 있습니다.
+"E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec561543864.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+
+빌드했습니다.
+    경고 0개
+    오류 0개
+
+경과 시간: 00:00:00.66
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/newData/libsrc/zlib/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec1727918593.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine 버전 4.0.30319.18408
+[Microsoft .NET Framework, 버전 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2014-11-20 오전 10:23:57
+1 노드의 "E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1727918593.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTryCompileExec1727918593.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTryCompileExec1727918593.dir\Debug\cmTryCompileExec1727918593.unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1727918593.dir\Debug\\" /Fd"cmTryCompileExec1727918593.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) 32비트 C/C++ 최적화 컴파일러 버전 16.00.40219.01(80x86)
+  Copyright (c) Microsoft Corporation. 모든 권리 보유.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1727918593.dir\Debug\\" /Fd"cmTryCompileExec1727918593.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec1727918593.dir\Debug\cmTryCompileExec1727918593.exe.embed.manifest.res" cmTryCompileExec1727918593.dir\Debug\cmTryCompileExec1727918593_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1727918593.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"cmTryCompileExec1727918593.dir\Debug\cmTryCompileExec1727918593.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:/newData/libsrc/zlib/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1727918593.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/newData/libsrc/zlib/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1727918593.lib" /MACHINE:X86 cmTryCompileExec1727918593.dir\Debug\cmTryCompileExec1727918593.exe.embed.manifest.res
+  cmTryCompileExec1727918593.dir\Debug\CMakeCCompilerABI.obj  /machine:X86 /debug 
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTryCompileExec1727918593.dir\Debug\cmTryCompileExec1727918593.exe.embed.manifest" /manifest cmTryCompileExec1727918593.dir\Debug\cmTryCompileExec1727918593.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec1727918593.dir\Debug\cmTryCompileExec1727918593.exe.embed.manifest.res" cmTryCompileExec1727918593.dir\Debug\cmTryCompileExec1727918593_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1727918593.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"cmTryCompileExec1727918593.dir\Debug\cmTryCompileExec1727918593.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:/newData/libsrc/zlib/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1727918593.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/newData/libsrc/zlib/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1727918593.lib" /MACHINE:X86 cmTryCompileExec1727918593.dir\Debug\cmTryCompileExec1727918593.exe.embed.manifest.res
+  cmTryCompileExec1727918593.dir\Debug\CMakeCCompilerABI.obj  /machine:X86 /debug 
+  cmTryCompileExec1727918593.vcxproj -> E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1727918593.exe
+FinalizeBuildStatus:
+  "cmTryCompileExec1727918593.dir\Debug\cmTryCompileExec1727918593.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+  "cmTryCompileExec1727918593.dir\Debug\cmTryCompileExec1727918593.lastbuildstate"에 연결(touching)하고 있습니다.
+"E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1727918593.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+
+빌드했습니다.
+    경고 0개
+    오류 0개
+
+경과 시간: 00:00:00.57
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: E:/newData/libsrc/zlib/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec693545296.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine 버전 4.0.30319.18408
+[Microsoft .NET Framework, 버전 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2014-11-20 오전 10:23:59
+1 노드의 "E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec693545296.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTryCompileExec693545296.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTryCompileExec693545296.dir\Debug\cmTryCompileExec693545296.unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec693545296.dir\Debug\\" /Fd"cmTryCompileExec693545296.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) 32비트 C/C++ 최적화 컴파일러 버전 16.00.40219.01(80x86)
+  Copyright (c) Microsoft Corporation. 모든 권리 보유.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec693545296.dir\Debug\\" /Fd"cmTryCompileExec693545296.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec693545296.dir\Debug\cmTryCompileExec693545296.exe.embed.manifest.res" cmTryCompileExec693545296.dir\Debug\cmTryCompileExec693545296_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec693545296.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec693545296.dir\Debug\cmTryCompileExec693545296.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:/newData/libsrc/zlib/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec693545296.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/newData/libsrc/zlib/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec693545296.lib" /MACHINE:X86 cmTryCompileExec693545296.dir\Debug\cmTryCompileExec693545296.exe.embed.manifest.res
+  cmTryCompileExec693545296.dir\Debug\CheckIncludeFile.obj  /machine:X86 /debug 
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTryCompileExec693545296.dir\Debug\cmTryCompileExec693545296.exe.embed.manifest" /manifest cmTryCompileExec693545296.dir\Debug\cmTryCompileExec693545296.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec693545296.dir\Debug\cmTryCompileExec693545296.exe.embed.manifest.res" cmTryCompileExec693545296.dir\Debug\cmTryCompileExec693545296_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec693545296.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec693545296.dir\Debug\cmTryCompileExec693545296.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:/newData/libsrc/zlib/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec693545296.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/newData/libsrc/zlib/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec693545296.lib" /MACHINE:X86 cmTryCompileExec693545296.dir\Debug\cmTryCompileExec693545296.exe.embed.manifest.res
+  cmTryCompileExec693545296.dir\Debug\CheckIncludeFile.obj  /machine:X86 /debug 
+  cmTryCompileExec693545296.vcxproj -> E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec693545296.exe
+FinalizeBuildStatus:
+  "cmTryCompileExec693545296.dir\Debug\cmTryCompileExec693545296.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+  "cmTryCompileExec693545296.dir\Debug\cmTryCompileExec693545296.lastbuildstate"에 연결(touching)하고 있습니다.
+"E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec693545296.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+
+빌드했습니다.
+    경고 0개
+    오류 0개
+
+경과 시간: 00:00:00.61
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: E:/newData/libsrc/zlib/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec4292437952.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine 버전 4.0.30319.18408
+[Microsoft .NET Framework, 버전 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2014-11-20 오전 10:24:00
+1 노드의 "E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4292437952.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTryCompileExec4292437952.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTryCompileExec4292437952.dir\Debug\cmTryCompileExec4292437952.unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4292437952.dir\Debug\\" /Fd"cmTryCompileExec4292437952.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) 32비트 C/C++ 최적화 컴파일러 버전 16.00.40219.01(80x86)
+  Copyright (c) Microsoft Corporation. 모든 권리 보유.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4292437952.dir\Debug\\" /Fd"cmTryCompileExec4292437952.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec4292437952.dir\Debug\cmTryCompileExec4292437952.exe.embed.manifest.res" cmTryCompileExec4292437952.dir\Debug\cmTryCompileExec4292437952_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4292437952.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec4292437952.dir\Debug\cmTryCompileExec4292437952.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:/newData/libsrc/zlib/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4292437952.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/newData/libsrc/zlib/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4292437952.lib" /MACHINE:X86 cmTryCompileExec4292437952.dir\Debug\cmTryCompileExec4292437952.exe.embed.manifest.res
+  cmTryCompileExec4292437952.dir\Debug\CheckIncludeFile.obj  /machine:X86 /debug 
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTryCompileExec4292437952.dir\Debug\cmTryCompileExec4292437952.exe.embed.manifest" /manifest cmTryCompileExec4292437952.dir\Debug\cmTryCompileExec4292437952.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec4292437952.dir\Debug\cmTryCompileExec4292437952.exe.embed.manifest.res" cmTryCompileExec4292437952.dir\Debug\cmTryCompileExec4292437952_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4292437952.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec4292437952.dir\Debug\cmTryCompileExec4292437952.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:/newData/libsrc/zlib/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4292437952.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/newData/libsrc/zlib/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4292437952.lib" /MACHINE:X86 cmTryCompileExec4292437952.dir\Debug\cmTryCompileExec4292437952.exe.embed.manifest.res
+  cmTryCompileExec4292437952.dir\Debug\CheckIncludeFile.obj  /machine:X86 /debug 
+  cmTryCompileExec4292437952.vcxproj -> E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4292437952.exe
+FinalizeBuildStatus:
+  "cmTryCompileExec4292437952.dir\Debug\cmTryCompileExec4292437952.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+  "cmTryCompileExec4292437952.dir\Debug\cmTryCompileExec4292437952.lastbuildstate"에 연결(touching)하고 있습니다.
+"E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4292437952.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+
+빌드했습니다.
+    경고 0개
+    오류 0개
+
+경과 시간: 00:00:00.60
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: E:/newData/libsrc/zlib/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec3457243563.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine 버전 4.0.30319.18408
+[Microsoft .NET Framework, 버전 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2014-11-20 오전 10:24:00
+1 노드의 "E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3457243563.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTryCompileExec3457243563.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTryCompileExec3457243563.dir\Debug\cmTryCompileExec3457243563.unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3457243563.dir\Debug\\" /Fd"cmTryCompileExec3457243563.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) 32비트 C/C++ 최적화 컴파일러 버전 16.00.40219.01(80x86)
+  Copyright (c) Microsoft Corporation. 모든 권리 보유.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3457243563.dir\Debug\\" /Fd"cmTryCompileExec3457243563.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec3457243563.dir\Debug\cmTryCompileExec3457243563.exe.embed.manifest.res" cmTryCompileExec3457243563.dir\Debug\cmTryCompileExec3457243563_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3457243563.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec3457243563.dir\Debug\cmTryCompileExec3457243563.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:/newData/libsrc/zlib/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3457243563.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/newData/libsrc/zlib/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3457243563.lib" /MACHINE:X86 cmTryCompileExec3457243563.dir\Debug\cmTryCompileExec3457243563.exe.embed.manifest.res
+  cmTryCompileExec3457243563.dir\Debug\CheckIncludeFile.obj  /machine:X86 /debug 
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTryCompileExec3457243563.dir\Debug\cmTryCompileExec3457243563.exe.embed.manifest" /manifest cmTryCompileExec3457243563.dir\Debug\cmTryCompileExec3457243563.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec3457243563.dir\Debug\cmTryCompileExec3457243563.exe.embed.manifest.res" cmTryCompileExec3457243563.dir\Debug\cmTryCompileExec3457243563_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3457243563.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec3457243563.dir\Debug\cmTryCompileExec3457243563.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:/newData/libsrc/zlib/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3457243563.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/newData/libsrc/zlib/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3457243563.lib" /MACHINE:X86 cmTryCompileExec3457243563.dir\Debug\cmTryCompileExec3457243563.exe.embed.manifest.res
+  cmTryCompileExec3457243563.dir\Debug\CheckIncludeFile.obj  /machine:X86 /debug 
+  cmTryCompileExec3457243563.vcxproj -> E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3457243563.exe
+FinalizeBuildStatus:
+  "cmTryCompileExec3457243563.dir\Debug\cmTryCompileExec3457243563.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+  "cmTryCompileExec3457243563.dir\Debug\cmTryCompileExec3457243563.lastbuildstate"에 연결(touching)하고 있습니다.
+"E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3457243563.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+
+빌드했습니다.
+    경고 0개
+    오류 0개
+
+경과 시간: 00:00:00.57
+
+
+Checking whether the ASM_MASM compiler is MSVC using "/?" matched "Microsoft":
+        ML [ /options ] filelist [ /link linkoptions ]
+
+/Bl<linker> Use alternate linker          /safeseh Assert all exception
+/c Assemble without linking                        handlers are declared
+/Cp Preserve case of user identifiers     /Sf Generate first pass listing
+/Cu Map all identifiers to upper case     /Sl<width> Set line width
+/Cx Preserve case in publics, externs     /Sn Suppress symbol-table listing
+/coff generate COFF format object file    /Sp<length> Set page length
+/D<name>[=text] Define text macro         /Ss<string> Set subtitle
+/EP Output preprocessed listing to stdout /St<string> Set title
+/F <hex> Set stack size (bytes)           /Sx List false conditionals
+/Fe<file> Name executable                 /Ta<file> Assemble non-.ASM file
+/Fl[file] Generate listing                /w Same as /W0 /WX
+/Fm[file] Generate map                    /WX Treat warnings as errors
+/Fo<file> Name object file                /W<number> Set warning level
+/Fr[file] Generate limited browser info   /X Ignore INCLUDE environment path
+/FR[file] Generate full browser info      /Zd Add line number debug info
+/G<c|d|z> Use Pascal, C, or Stdcall calls /Zf Make all symbols public
+/I<name> Add include path                 /Zi Add symbolic debug info
+/link <linker options and libraries>      /Zm Enable MASM 5.10 compatibility
+/nologo Suppress copyright message        /Zp[n] Set structure alignment
+/omf generate OMF format object file      /Zs Perform syntax check only
+/Sa Maximize source listing
+/errorReport:<option> Report internal assembler errors to Microsoft
+    none - do not send report
+    prompt - prompt to immediately send report
+    queue - at next admin logon, prompt to send report
+    send - send report automatically
+Microsoft (R) Macro Assembler Version 10.00.40219.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+

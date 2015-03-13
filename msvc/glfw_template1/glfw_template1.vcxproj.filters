@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\src">
+      <UniqueIdentifier>{9a1d506b-800f-4b02-9a1e-e65979ff702e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\classes">
+      <UniqueIdentifier>{16138e30-f0e0-487d-8868-562b4883967c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\middleware">
+      <UniqueIdentifier>{8f0a5594-5ca8-4736-9c56-f11930f52dd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\middleware\scene">
+      <UniqueIdentifier>{f06f25a7-8d02-4a48-8c2c-c00a7d3f8143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\middleware\tools">
+      <UniqueIdentifier>{32448b7f-455f-44d9-8624-50edd6addb88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\middleware">
+      <UniqueIdentifier>{61a41882-c46a-4c61-8296-45f1deead49a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\middleware\scene">
+      <UniqueIdentifier>{6dd9b31d-c8a7-40c4-8417-a49930e18e15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\middleware\tools">
+      <UniqueIdentifier>{2f90c202-4d8f-402b-a2ab-d3eaad1424fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Src\main.cpp">
+      <Filter>소스 파일\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\classes\AppDelegate.cpp">
+      <Filter>소스 파일\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\classes\TestScene.cpp">
+      <Filter>소스 파일\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\classes\TestLayer.cpp">
+      <Filter>소스 파일\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\classes\RedLayer.cpp">
+      <Filter>소스 파일\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\middleware\scene\Layer.cpp">
+      <Filter>소스 파일\middleware\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\middleware\scene\Drawable.cpp">
+      <Filter>소스 파일\middleware\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\middleware\scene\Node.cpp">
+      <Filter>소스 파일\middleware\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\middleware\scene\Scene.cpp">
+      <Filter>소스 파일\middleware\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\middleware\scene\Sprite.cpp">
+      <Filter>소스 파일\middleware\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\middleware\scene\Image.cpp">
+      <Filter>소스 파일\middleware\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\middleware\AppMain.cpp">
+      <Filter>소스 파일\middleware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\middleware\Configuration.cpp">
+      <Filter>소스 파일\middleware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\middleware\DebugLog.cpp">
+      <Filter>소스 파일\middleware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\middleware\Director.cpp">
+      <Filter>소스 파일\middleware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\middleware\Message.cpp">
+      <Filter>소스 파일\middleware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\middleware\Object.cpp">
+      <Filter>소스 파일\middleware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\middleware\RunTime.cpp">
+      <Filter>소스 파일\middleware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\middleware\Scheduler.cpp">
+      <Filter>소스 파일\middleware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\middleware\tools\Thread.cpp">
+      <Filter>소스 파일\middleware\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\middleware\tools\SevenZDec.cpp">
+      <Filter>소스 파일\middleware\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\middleware\tools\TextureManager.cpp">
+      <Filter>소스 파일\middleware\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\middleware\tools\Util.cpp">
+      <Filter>소스 파일\middleware\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\classes\TestThread.cpp">
+      <Filter>소스 파일\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\middleware\tools\Rect.cpp">
+      <Filter>소스 파일\middleware\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\middleware\tools\FontManager.cpp">
+      <Filter>소스 파일\middleware\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\middleware\scene\Text.cpp">
+      <Filter>소스 파일\middleware\scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\classes\AppDelegate.h">
+      <Filter>소스 파일\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\classes\TestScene.h">
+      <Filter>소스 파일\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\classes\TestLayer.h">
+      <Filter>소스 파일\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\classes\RedLayer.h">
+      <Filter>소스 파일\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\middleware\scene\Node.h">
+      <Filter>헤더 파일\middleware\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\middleware\scene\Drawable.h">
+      <Filter>헤더 파일\middleware\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\middleware\scene\Layer.h">
+      <Filter>헤더 파일\middleware\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\middleware\scene\Scene.h">
+      <Filter>헤더 파일\middleware\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\middleware\scene\Sprite.h">
+      <Filter>헤더 파일\middleware\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\middleware\scene\Image.h">
+      <Filter>헤더 파일\middleware\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\middleware\Application.h">
+      <Filter>헤더 파일\middleware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\middleware\AppMain.h">
+      <Filter>헤더 파일\middleware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\middleware\Configuration.h">
+      <Filter>헤더 파일\middleware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\middleware\DebugLog.h">
+      <Filter>헤더 파일\middleware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\middleware\Director.h">
+      <Filter>헤더 파일\middleware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\middleware\jmw.h">
+      <Filter>헤더 파일\middleware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\middleware\Message.h">
+      <Filter>헤더 파일\middleware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\middleware\Object.h">
+      <Filter>헤더 파일\middleware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\middleware\PlatformMacros.h">
+      <Filter>헤더 파일\middleware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\middleware\RunTime.h">
+      <Filter>헤더 파일\middleware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\middleware\Scheduler.h">
+      <Filter>헤더 파일\middleware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\middleware\tools\Size.h">
+      <Filter>헤더 파일\middleware\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\middleware\tools\Stack.h">
+      <Filter>헤더 파일\middleware\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\middleware\tools\Queue.h">
+      <Filter>헤더 파일\middleware\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\middleware\tools\Point.h">
+      <Filter>헤더 파일\middleware\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\TestCase.h">
+      <Filter>소스 파일\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\classes\TestThread.h">
+      <Filter>소스 파일\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\middleware\tools\Thread.h">
+      <Filter>헤더 파일\middleware\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\middleware\tools\SevenZDec.h">
+      <Filter>헤더 파일\middleware\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\middleware\tools\TextureManager.h">
+      <Filter>헤더 파일\middleware\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\middleware\tools\Util.h">
+      <Filter>헤더 파일\middleware\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\middleware\tools\Rect.h">
+      <Filter>헤더 파일\middleware\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\middleware\tools\Touchable.h">
+      <Filter>헤더 파일\middleware\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\middleware\tools\FontManager.h">
+      <Filter>헤더 파일\middleware\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\middleware\scene\Text.h">
+      <Filter>헤더 파일\middleware\scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

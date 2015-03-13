@@ -1,0 +1,304 @@
+# depslib dependency file v1.0
+1415775236 source:e:\newdata\libs\curl_cb_test\main.cpp
+	<curl/curl.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<json/json.h>
+
+1415772560 e:\curl\include\curl\curl.h
+	"curlver.h"
+	"curlbuild.h"
+	"curlrules.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"typecheck-gcc.h"
+
+1415772560 e:\curl\include\curl\curlver.h
+
+1415772560 e:\curl\include\curl\curlbuild.h
+	<windows.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<stdint.h>
+	<inttypes.h>
+	<sys/socket.h>
+	<sys/poll.h>
+
+1415772560 e:\curl\include\curl\curlrules.h
+
+1415772560 e:\curl\include\curl\easy.h
+
+1415772560 e:\curl\include\curl\multi.h
+	"curl.h"
+
+1415772560 e:\curl\include\curl\typecheck-gcc.h
+
+1415772560 e:\newdata\libs\curl-7.39.0\mingw\include\curl\curl.h
+	"curlver.h"
+	"curlbuild.h"
+	"curlrules.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"typecheck-gcc.h"
+
+1415772560 e:\newdata\libs\curl-7.39.0\mingw\include\curl\curlver.h
+
+1415772560 e:\newdata\libs\curl-7.39.0\mingw\include\curl\curlbuild.h
+	<windows.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<stdint.h>
+	<inttypes.h>
+	<sys/socket.h>
+	<sys/poll.h>
+
+1415772560 e:\newdata\libs\curl-7.39.0\mingw\include\curl\curlrules.h
+
+1415772560 e:\newdata\libs\curl-7.39.0\mingw\include\curl\easy.h
+
+1415772560 e:\newdata\libs\curl-7.39.0\mingw\include\curl\multi.h
+	"curl.h"
+
+1415772560 e:\newdata\libs\curl-7.39.0\mingw\include\curl\typecheck-gcc.h
+
+1268379095 e:\newdata\libs\jsoncpp-src-0.5.0\include\json\json.h
+	"autolink.h"
+	"value.h"
+	"reader.h"
+	"writer.h"
+	"features.h"
+
+1268379095 e:\newdata\libs\jsoncpp-src-0.5.0\include\json\autolink.h
+	"config.h"
+	<cpptl/cpptl_autolink.h>
+	"autolink.h"
+
+1268379095 e:\newdata\libs\jsoncpp-src-0.5.0\include\json\config.h
+	<cpptl/config.h>
+
+1268379095 e:\newdata\libs\jsoncpp-src-0.5.0\include\json\value.h
+	"forwards.h"
+	<string>
+	<vector>
+	<map>
+	<cpptl/smallmap.h>
+	<cpptl/forwards.h>
+
+1268379095 e:\newdata\libs\jsoncpp-src-0.5.0\include\json\forwards.h
+	"config.h"
+
+1268379095 e:\newdata\libs\jsoncpp-src-0.5.0\include\json\reader.h
+	"features.h"
+	"value.h"
+	<deque>
+	<stack>
+	<string>
+	<iostream>
+
+1268379095 e:\newdata\libs\jsoncpp-src-0.5.0\include\json\features.h
+	"forwards.h"
+
+1268379095 e:\newdata\libs\jsoncpp-src-0.5.0\include\json\writer.h
+	"value.h"
+	<vector>
+	<string>
+	<iostream>
+
+1415775236 source:e:\newdata\libsrc\curl_cb_test\main.cpp
+	<curl/curl.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<json/json.h>
+
+1415772560 e:\newdata\libsrc\curl-7.39.0\mingw\include\curl\curl.h
+	"curlver.h"
+	"curlbuild.h"
+	"curlrules.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"typecheck-gcc.h"
+
+1415772560 e:\newdata\libsrc\curl-7.39.0\mingw\include\curl\curlver.h
+
+1415772560 e:\newdata\libsrc\curl-7.39.0\mingw\include\curl\curlbuild.h
+	<windows.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<stdint.h>
+	<inttypes.h>
+	<sys/socket.h>
+	<sys/poll.h>
+
+1415772560 e:\newdata\libsrc\curl-7.39.0\mingw\include\curl\curlrules.h
+
+1415772560 e:\newdata\libsrc\curl-7.39.0\mingw\include\curl\easy.h
+
+1415772560 e:\newdata\libsrc\curl-7.39.0\mingw\include\curl\multi.h
+	"curl.h"
+
+1415772560 e:\newdata\libsrc\curl-7.39.0\mingw\include\curl\typecheck-gcc.h
+
+1268379095 e:\newdata\libsrc\jsoncpp-src-0.5.0\include\json\json.h
+	"autolink.h"
+	"value.h"
+	"reader.h"
+	"writer.h"
+	"features.h"
+
+1268379095 e:\newdata\libsrc\jsoncpp-src-0.5.0\include\json\autolink.h
+	"config.h"
+	<cpptl/cpptl_autolink.h>
+	"autolink.h"
+
+1268379095 e:\newdata\libsrc\jsoncpp-src-0.5.0\include\json\config.h
+	<cpptl/config.h>
+
+1268379095 e:\newdata\libsrc\jsoncpp-src-0.5.0\include\json\value.h
+	"forwards.h"
+	<string>
+	<vector>
+	<map>
+	<cpptl/smallmap.h>
+	<cpptl/forwards.h>
+
+1268379095 e:\newdata\libsrc\jsoncpp-src-0.5.0\include\json\forwards.h
+	"config.h"
+
+1268379095 e:\newdata\libsrc\jsoncpp-src-0.5.0\include\json\reader.h
+	"features.h"
+	"value.h"
+	<deque>
+	<stack>
+	<string>
+	<iostream>
+
+1268379095 e:\newdata\libsrc\jsoncpp-src-0.5.0\include\json\features.h
+	"forwards.h"
+
+1268379095 e:\newdata\libsrc\jsoncpp-src-0.5.0\include\json\writer.h
+	"value.h"
+	<vector>
+	<string>
+	<iostream>
+
+1415772560 e:\newdata\include\curl\curl.h
+	"curlver.h"
+	"curlbuild.h"
+	"curlrules.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"typecheck-gcc.h"
+
+1415772560 e:\newdata\include\curl\curlver.h
+
+1415772560 e:\newdata\include\curl\curlbuild.h
+	<windows.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<stdint.h>
+	<inttypes.h>
+	<sys/socket.h>
+	<sys/poll.h>
+
+1415772560 e:\newdata\include\curl\curlrules.h
+
+1415772560 e:\newdata\include\curl\easy.h
+
+1415772560 e:\newdata\include\curl\multi.h
+	"curl.h"
+
+1415772560 e:\newdata\include\curl\typecheck-gcc.h
+
+1268379095 e:\newdata\include\json\json.h
+	"autolink.h"
+	"value.h"
+	"reader.h"
+	"writer.h"
+	"features.h"
+
+1268379095 e:\newdata\include\json\autolink.h
+	"config.h"
+	<cpptl/cpptl_autolink.h>
+	"autolink.h"
+
+1268379095 e:\newdata\include\json\config.h
+	<cpptl/config.h>
+
+1268379095 e:\newdata\include\json\value.h
+	"forwards.h"
+	<string>
+	<vector>
+	<map>
+	<cpptl/smallmap.h>
+	<cpptl/forwards.h>
+
+1268379095 e:\newdata\include\json\forwards.h
+	"config.h"
+
+1268379095 e:\newdata\include\json\reader.h
+	"features.h"
+	"value.h"
+	<deque>
+	<stack>
+	<string>
+	<iostream>
+
+1268379095 e:\newdata\include\json\features.h
+	"forwards.h"
+
+1268379095 e:\newdata\include\json\writer.h
+	"value.h"
+	<vector>
+	<string>
+	<iostream>
+

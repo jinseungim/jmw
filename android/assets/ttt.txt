@@ -1,0 +1,17 @@
+﻿<#s:24><#c:ff7f00><#bg:ffff0000>AV\nT.Testg\ndraw
+<#f:1><#c:ff7f00>Visual <#f:0><#c:ff0000>Studio
+Eclipse
+Dev C++
+請在此輸入取款金額。
+한국어]
+
+対戦相手検索
+
+
+
+
+AV
+T.Testg
+draw
+
+

@@ -1,0 +1,23 @@
+﻿  adler32.c
+e:\newdata\libsrc\zlib-1.2.8\zlib.h(34): fatal error C1083: 포함 파일을 열 수 없습니다. 'zconf.h': No such file or directory
+  compress.c
+e:\newdata\libsrc\zlib-1.2.8\zlib.h(34): fatal error C1083: 포함 파일을 열 수 없습니다. 'zconf.h': No such file or directory
+  crc32.c
+e:\newdata\libsrc\zlib-1.2.8\zlib.h(34): fatal error C1083: 포함 파일을 열 수 없습니다. 'zconf.h': No such file or directory
+  deflate.c
+e:\newdata\libsrc\zlib-1.2.8\zlib.h(34): fatal error C1083: 포함 파일을 열 수 없습니다. 'zconf.h': No such file or directory
+  infback.c
+e:\newdata\libsrc\zlib-1.2.8\zlib.h(34): fatal error C1083: 포함 파일을 열 수 없습니다. 'zconf.h': No such file or directory
+  inffast.c
+e:\newdata\libsrc\zlib-1.2.8\zlib.h(34): fatal error C1083: 포함 파일을 열 수 없습니다. 'zconf.h': No such file or directory
+  inflate.c
+e:\newdata\libsrc\zlib-1.2.8\zlib.h(34): fatal error C1083: 포함 파일을 열 수 없습니다. 'zconf.h': No such file or directory
+  inftrees.c
+e:\newdata\libsrc\zlib-1.2.8\zlib.h(34): fatal error C1083: 포함 파일을 열 수 없습니다. 'zconf.h': No such file or directory
+  trees.c
+e:\newdata\libsrc\zlib-1.2.8\zlib.h(34): fatal error C1083: 포함 파일을 열 수 없습니다. 'zconf.h': No such file or directory
+  uncompr.c
+e:\newdata\libsrc\zlib-1.2.8\zlib.h(34): fatal error C1083: 포함 파일을 열 수 없습니다. 'zconf.h': No such file or directory
+  zutil.c
+e:\newdata\libsrc\zlib-1.2.8\zlib.h(34): fatal error C1083: 포함 파일을 열 수 없습니다. 'zconf.h': No such file or directory
+  코드를 생성하고 있습니다...

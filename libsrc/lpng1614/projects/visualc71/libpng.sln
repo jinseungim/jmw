@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpng", "libpng.vcxproj", "{0540C2F1-C4EF-1ECD-4E47-570EC4076825}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pngtest", "pngtest.vcxproj", "{7EC44DA3-73AC-6031-C57F-66D13355D7EA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "zlib.vcxproj", "{C405AC40-F63E-5DCB-9644-2F1D031721AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		DLL Debug|Win32 = DLL Debug|Win32
+		DLL Release|Win32 = DLL Release|Win32
+		DLL VB|Win32 = DLL VB|Win32
+		LIB Debug|Win32 = LIB Debug|Win32
+		LIB Release|Win32 = LIB Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0540C2F1-C4EF-1ECD-4E47-570EC4076825}.DLL Debug|Win32.ActiveCfg = DLL Debug|Win32
+		{0540C2F1-C4EF-1ECD-4E47-570EC4076825}.DLL Release|Win32.ActiveCfg = DLL Release|Win32
+		{0540C2F1-C4EF-1ECD-4E47-570EC4076825}.DLL VB|Win32.ActiveCfg = DLL VB|Win32
+		{0540C2F1-C4EF-1ECD-4E47-570EC4076825}.LIB Debug|Win32.ActiveCfg = LIB Debug|Win32
+		{0540C2F1-C4EF-1ECD-4E47-570EC4076825}.LIB Release|Win32.ActiveCfg = LIB Release|Win32
+		{7EC44DA3-73AC-6031-C57F-66D13355D7EA}.DLL Debug|Win32.ActiveCfg = DLL Debug|Win32
+		{7EC44DA3-73AC-6031-C57F-66D13355D7EA}.DLL Release|Win32.ActiveCfg = DLL Release|Win32
+		{7EC44DA3-73AC-6031-C57F-66D13355D7EA}.DLL VB|Win32.ActiveCfg = DLL VB|Win32
+		{7EC44DA3-73AC-6031-C57F-66D13355D7EA}.LIB Debug|Win32.ActiveCfg = LIB Debug|Win32
+		{7EC44DA3-73AC-6031-C57F-66D13355D7EA}.LIB Release|Win32.ActiveCfg = LIB Release|Win32
+		{C405AC40-F63E-5DCB-9644-2F1D031721AB}.DLL Debug|Win32.ActiveCfg = DLL Debug|Win32
+		{C405AC40-F63E-5DCB-9644-2F1D031721AB}.DLL Release|Win32.ActiveCfg = DLL Release|Win32
+		{C405AC40-F63E-5DCB-9644-2F1D031721AB}.DLL VB|Win32.ActiveCfg = DLL Release|Win32
+		{C405AC40-F63E-5DCB-9644-2F1D031721AB}.LIB Debug|Win32.ActiveCfg = LIB Debug|Win32
+		{C405AC40-F63E-5DCB-9644-2F1D031721AB}.LIB Release|Win32.ActiveCfg = LIB Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

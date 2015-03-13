@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C83E95AB-9474-48B8-A4E3-6F929B4B8635}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>glfw_template1</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;_CRT_SECURE_NO_WARNINGS;USING_STATIC_LIBICONV;_CRT_NON_CONFORMING_SWPRINTFS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../../middleware;../../middleware/tools;../../middleware/scene;../../middleware/inc;../../libsrc/gmock-1.7.0\include;../../libsrc/gmock-1.7.0\gtest\include;../../classes;../../middleware/inc/msvc;../../middleware/inc/freetype</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../libs/msvc;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glfw3dll.lib;opengl32.lib;gmock.lib;libpngd.lib;zlibd.lib;7z.lib;freetype253_D.lib;libiconvStaticD.lib;WINMM.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\classes\AppDelegate.cpp" />
+    <ClCompile Include="..\..\classes\RedLayer.cpp" />
+    <ClCompile Include="..\..\classes\TestLayer.cpp" />
+    <ClCompile Include="..\..\classes\TestScene.cpp" />
+    <ClCompile Include="..\..\classes\TestThread.cpp" />
+    <ClCompile Include="..\..\middleware\AppMain.cpp" />
+    <ClCompile Include="..\..\middleware\Configuration.cpp" />
+    <ClCompile Include="..\..\middleware\DebugLog.cpp" />
+    <ClCompile Include="..\..\middleware\Director.cpp" />
+    <ClCompile Include="..\..\middleware\Message.cpp" />
+    <ClCompile Include="..\..\middleware\Object.cpp" />
+    <ClCompile Include="..\..\middleware\RunTime.cpp" />
+    <ClCompile Include="..\..\middleware\scene\Drawable.cpp" />
+    <ClCompile Include="..\..\middleware\scene\Image.cpp" />
+    <ClCompile Include="..\..\middleware\scene\Layer.cpp" />
+    <ClCompile Include="..\..\middleware\scene\Node.cpp" />
+    <ClCompile Include="..\..\middleware\scene\Scene.cpp" />
+    <ClCompile Include="..\..\middleware\scene\Sprite.cpp" />
+    <ClCompile Include="..\..\middleware\scene\Text.cpp" />
+    <ClCompile Include="..\..\middleware\Scheduler.cpp" />
+    <ClCompile Include="..\..\middleware\tools\FontManager.cpp" />
+    <ClCompile Include="..\..\middleware\tools\Rect.cpp" />
+    <ClCompile Include="..\..\middleware\tools\SevenZDec.cpp" />
+    <ClCompile Include="..\..\middleware\tools\TextureManager.cpp" />
+    <ClCompile Include="..\..\middleware\tools\Thread.cpp" />
+    <ClCompile Include="..\..\middleware\tools\Util.cpp" />
+    <ClCompile Include="..\..\Src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\classes\AppDelegate.h" />
+    <ClInclude Include="..\..\classes\RedLayer.h" />
+    <ClInclude Include="..\..\classes\TestLayer.h" />
+    <ClInclude Include="..\..\classes\TestScene.h" />
+    <ClInclude Include="..\..\classes\TestThread.h" />
+    <ClInclude Include="..\..\middleware\Application.h" />
+    <ClInclude Include="..\..\middleware\AppMain.h" />
+    <ClInclude Include="..\..\middleware\Configuration.h" />
+    <ClInclude Include="..\..\middleware\DebugLog.h" />
+    <ClInclude Include="..\..\middleware\Director.h" />
+    <ClInclude Include="..\..\middleware\jmw.h" />
+    <ClInclude Include="..\..\middleware\Message.h" />
+    <ClInclude Include="..\..\middleware\Object.h" />
+    <ClInclude Include="..\..\middleware\PlatformMacros.h" />
+    <ClInclude Include="..\..\middleware\RunTime.h" />
+    <ClInclude Include="..\..\middleware\scene\Drawable.h" />
+    <ClInclude Include="..\..\middleware\scene\Image.h" />
+    <ClInclude Include="..\..\middleware\scene\Layer.h" />
+    <ClInclude Include="..\..\middleware\scene\Node.h" />
+    <ClInclude Include="..\..\middleware\scene\Scene.h" />
+    <ClInclude Include="..\..\middleware\scene\Sprite.h" />
+    <ClInclude Include="..\..\middleware\scene\Text.h" />
+    <ClInclude Include="..\..\middleware\Scheduler.h" />
+    <ClInclude Include="..\..\middleware\tools\FontManager.h" />
+    <ClInclude Include="..\..\middleware\tools\Point.h" />
+    <ClInclude Include="..\..\middleware\tools\Queue.h" />
+    <ClInclude Include="..\..\middleware\tools\Rect.h" />
+    <ClInclude Include="..\..\middleware\tools\SevenZDec.h" />
+    <ClInclude Include="..\..\middleware\tools\Size.h" />
+    <ClInclude Include="..\..\middleware\tools\Stack.h" />
+    <ClInclude Include="..\..\middleware\tools\TextureManager.h" />
+    <ClInclude Include="..\..\middleware\tools\Thread.h" />
+    <ClInclude Include="..\..\middleware\tools\Touchable.h" />
+    <ClInclude Include="..\..\middleware\tools\Util.h" />
+    <ClInclude Include="..\..\Src\TestCase.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

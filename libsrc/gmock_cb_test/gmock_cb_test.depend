@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1413859543 source:e:\newdata\libs\gmock_cb_test\main.cpp
+	<iostream>
+	<gmock\gmock.h>
+	<gtest\gtest.h>
+

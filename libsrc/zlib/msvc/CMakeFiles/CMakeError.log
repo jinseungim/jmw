@@ -1,0 +1,201 @@
+Determining size of off64_t failed with the following output:
+Change Dir: E:/newData/libsrc/zlib/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec4202327270.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine 버전 4.0.30319.18408
+[Microsoft .NET Framework, 버전 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2014-11-20 오전 10:24:01
+1 노드의 "E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4202327270.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTryCompileExec4202327270.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTryCompileExec4202327270.dir\Debug\cmTryCompileExec4202327270.unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4202327270.dir\Debug\\" /Fd"cmTryCompileExec4202327270.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue ..\CheckTypeSize\OFF64_T.c
+  Microsoft (R) 32비트 C/C++ 최적화 컴파일러 버전 16.00.40219.01(80x86)
+  Copyright (c) Microsoft Corporation. 모든 권리 보유.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4202327270.dir\Debug\\" /Fd"cmTryCompileExec4202327270.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue ..\CheckTypeSize\OFF64_T.c
+  
+  OFF64_T.c
+..\CheckTypeSize\OFF64_T.c(19): error C2065: 'off64_t' : 선언되지 않은 식별자입니다. [E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4202327270.vcxproj]
+..\CheckTypeSize\OFF64_T.c(20): error C2065: 'off64_t' : 선언되지 않은 식별자입니다. [E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4202327270.vcxproj]
+..\CheckTypeSize\OFF64_T.c(21): error C2065: 'off64_t' : 선언되지 않은 식별자입니다. [E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4202327270.vcxproj]
+..\CheckTypeSize\OFF64_T.c(22): error C2065: 'off64_t' : 선언되지 않은 식별자입니다. [E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4202327270.vcxproj]
+..\CheckTypeSize\OFF64_T.c(23): error C2065: 'off64_t' : 선언되지 않은 식별자입니다. [E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4202327270.vcxproj]
+"E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4202327270.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+
+빌드하지 못했습니다.
+
+"E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4202327270.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  ..\CheckTypeSize\OFF64_T.c(19): error C2065: 'off64_t' : 선언되지 않은 식별자입니다. [E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4202327270.vcxproj]
+  ..\CheckTypeSize\OFF64_T.c(20): error C2065: 'off64_t' : 선언되지 않은 식별자입니다. [E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4202327270.vcxproj]
+  ..\CheckTypeSize\OFF64_T.c(21): error C2065: 'off64_t' : 선언되지 않은 식별자입니다. [E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4202327270.vcxproj]
+  ..\CheckTypeSize\OFF64_T.c(22): error C2065: 'off64_t' : 선언되지 않은 식별자입니다. [E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4202327270.vcxproj]
+  ..\CheckTypeSize\OFF64_T.c(23): error C2065: 'off64_t' : 선언되지 않은 식별자입니다. [E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4202327270.vcxproj]
+
+    경고 0개
+    오류 5개
+
+경과 시간: 00:00:00.15
+
+E:/newData/libsrc/zlib/msvc/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function fseeko exists failed with the following output:
+Change Dir: E:/newData/libsrc/zlib/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec4041827672.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine 버전 4.0.30319.18408
+[Microsoft .NET Framework, 버전 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2014-11-20 오전 10:24:02
+1 노드의 "E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4041827672.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTryCompileExec4041827672.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTryCompileExec4041827672.dir\Debug\cmTryCompileExec4041827672.unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4041827672.dir\Debug\\" /Fd"cmTryCompileExec4041827672.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CheckFunctionExists.c"
+  Microsoft (R) 32비트 C/C++ 최적화 컴파일러 버전 16.00.40219.01(80x86)
+  Copyright (c) Microsoft Corporation. 모든 권리 보유.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4041827672.dir\Debug\\" /Fd"cmTryCompileExec4041827672.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec4041827672.dir\Debug\cmTryCompileExec4041827672.exe.embed.manifest.res" cmTryCompileExec4041827672.dir\Debug\cmTryCompileExec4041827672_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4041827672.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec4041827672.dir\Debug\cmTryCompileExec4041827672.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:/newData/libsrc/zlib/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4041827672.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/newData/libsrc/zlib/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4041827672.lib" /MACHINE:X86 cmTryCompileExec4041827672.dir\Debug\cmTryCompileExec4041827672.exe.embed.manifest.res
+  cmTryCompileExec4041827672.dir\Debug\CheckFunctionExists.obj  /machine:X86 /debug 
+CheckFunctionExists.obj : error LNK2019: _fseeko 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다. [E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4041827672.vcxproj]
+E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4041827672.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다. [E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4041827672.vcxproj]
+"E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4041827672.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+
+빌드하지 못했습니다.
+
+"E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4041827672.vcxproj"(기본 대상)(1)->
+(Link 대상) -> 
+  CheckFunctionExists.obj : error LNK2019: _fseeko 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다. [E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4041827672.vcxproj]
+  E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4041827672.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다. [E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4041827672.vcxproj]
+
+    경고 0개
+    오류 2개
+
+경과 시간: 00:00:00.28
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: E:/newData/libsrc/zlib/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec1448087373.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine 버전 4.0.30319.18408
+[Microsoft .NET Framework, 버전 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2014-11-20 오전 10:24:02
+1 노드의 "E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1448087373.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTryCompileExec1448087373.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTryCompileExec1448087373.dir\Debug\cmTryCompileExec1448087373.unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1448087373.dir\Debug\\" /Fd"cmTryCompileExec1448087373.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) 32비트 C/C++ 최적화 컴파일러 버전 16.00.40219.01(80x86)
+  Copyright (c) Microsoft Corporation. 모든 권리 보유.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1448087373.dir\Debug\\" /Fd"cmTryCompileExec1448087373.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'unistd.h': No such file or directory [E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1448087373.vcxproj]
+"E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1448087373.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+
+빌드하지 못했습니다.
+
+"E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1448087373.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  CheckIncludeFile.c(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'unistd.h': No such file or directory [E:\newData\libsrc\zlib\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1448087373.vcxproj]
+
+    경고 0개
+    오류 1개
+
+경과 시간: 00:00:00.15
+
+
+Checking whether the ASM_MASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+MASM : warning A4018:invalid command-line option : --version
+MASM : fatal error A1017:missing source filename
+Microsoft (R) Macro Assembler Version 10.00.40219.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+Checking whether the ASM_MASM compiler is HP using "-V" did not match "HP C":
+MASM : warning A4018:invalid command-line option : -V
+MASM : fatal error A1017:missing source filename
+Microsoft (R) Macro Assembler Version 10.00.40219.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+Checking whether the ASM_MASM compiler is Intel using "--version" did not match "(ICC)":
+MASM : warning A4018:invalid command-line option : --version
+MASM : fatal error A1017:missing source filename
+Microsoft (R) Macro Assembler Version 10.00.40219.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+Checking whether the ASM_MASM compiler is SunPro using "-V" did not match "Sun C":
+Microsoft (R) Macro Assembler Version 10.00.40219.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+MASM : warning A4018:invalid command-line option : -V
+MASM : fatal error A1017:missing source filename
+Checking whether the ASM_MASM compiler is XL using "-qversion" did not match "XL C":
+MASM : warning A4018:invalid command-line option : -qversion
+MASM : fatal error A1017:missing source filename
+Microsoft (R) Macro Assembler Version 10.00.40219.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+

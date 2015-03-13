@@ -1,0 +1,1384 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="GLFW" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\docs\;CMake Files\src\;CMake Files\examples\;CMake Files\tests\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="E:/glfw-3.0.4/cb" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="E:/glfw-3.0.4/cb" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="E:/glfw-3.0.4/cb" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="E:/glfw-3.0.4/cb" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="E:/glfw-3.0.4/cb" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="E:/glfw-3.0.4/cb" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="E:/glfw-3.0.4/cb" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="uninstall">
+         <Option working_dir="E:/glfw-3.0.4/cb" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 uninstall" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="glfw">
+         <Option output="E:/glfw-3.0.4/cb/src/glfw3.dll" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-D_GLFW_USE_CONFIG_H" />
+            <Add directory="E:/glfw-3.0.4/cb/src" />
+            <Add directory="E:/glfw-3.0.4/src" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/src/Makefile&quot;  VERBOSE=1 glfw" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/src/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/src/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="glfw/fast">
+         <Option output="E:/glfw-3.0.4/cb/src/glfw3.dll" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-D_GLFW_USE_CONFIG_H" />
+            <Add directory="E:/glfw-3.0.4/cb/src" />
+            <Add directory="E:/glfw-3.0.4/src" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/src/Makefile&quot;  VERBOSE=1 glfw/fast" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/src/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/src/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="boing">
+         <Option output="E:/glfw-3.0.4/cb/examples/boing.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/examples" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 boing" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="boing/fast">
+         <Option output="E:/glfw-3.0.4/cb/examples/boing.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/examples" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 boing/fast" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gears">
+         <Option output="E:/glfw-3.0.4/cb/examples/gears.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/examples" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 gears" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gears/fast">
+         <Option output="E:/glfw-3.0.4/cb/examples/gears.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/examples" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 gears/fast" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="heightmap">
+         <Option output="E:/glfw-3.0.4/cb/examples/heightmap.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/examples" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 heightmap" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="heightmap/fast">
+         <Option output="E:/glfw-3.0.4/cb/examples/heightmap.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/examples" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 heightmap/fast" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="simple">
+         <Option output="E:/glfw-3.0.4/cb/examples/simple.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/examples" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 simple" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="simple/fast">
+         <Option output="E:/glfw-3.0.4/cb/examples/simple.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/examples" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 simple/fast" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="splitview">
+         <Option output="E:/glfw-3.0.4/cb/examples/splitview.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/examples" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 splitview" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="splitview/fast">
+         <Option output="E:/glfw-3.0.4/cb/examples/splitview.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/examples" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 splitview/fast" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="wave">
+         <Option output="E:/glfw-3.0.4/cb/examples/wave.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/examples" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 wave" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="wave/fast">
+         <Option output="E:/glfw-3.0.4/cb/examples/wave.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/examples" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 wave/fast" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/examples/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="accuracy">
+         <Option output="E:/glfw-3.0.4/cb/tests/accuracy.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 accuracy" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="accuracy/fast">
+         <Option output="E:/glfw-3.0.4/cb/tests/accuracy.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 accuracy/fast" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="clipboard">
+         <Option output="E:/glfw-3.0.4/cb/tests/clipboard.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clipboard" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="clipboard/fast">
+         <Option output="E:/glfw-3.0.4/cb/tests/clipboard.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clipboard/fast" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="defaults">
+         <Option output="E:/glfw-3.0.4/cb/tests/defaults.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 defaults" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="defaults/fast">
+         <Option output="E:/glfw-3.0.4/cb/tests/defaults.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 defaults/fast" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="events">
+         <Option output="E:/glfw-3.0.4/cb/tests/events.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 events" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="events/fast">
+         <Option output="E:/glfw-3.0.4/cb/tests/events.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 events/fast" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="fsaa">
+         <Option output="E:/glfw-3.0.4/cb/tests/fsaa.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 fsaa" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="fsaa/fast">
+         <Option output="E:/glfw-3.0.4/cb/tests/fsaa.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 fsaa/fast" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gamma">
+         <Option output="E:/glfw-3.0.4/cb/tests/gamma.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 gamma" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gamma/fast">
+         <Option output="E:/glfw-3.0.4/cb/tests/gamma.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 gamma/fast" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="glfwinfo">
+         <Option output="E:/glfw-3.0.4/cb/tests/glfwinfo.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 glfwinfo" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="glfwinfo/fast">
+         <Option output="E:/glfw-3.0.4/cb/tests/glfwinfo.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 glfwinfo/fast" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="iconify">
+         <Option output="E:/glfw-3.0.4/cb/tests/iconify.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 iconify" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="iconify/fast">
+         <Option output="E:/glfw-3.0.4/cb/tests/iconify.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 iconify/fast" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="joysticks">
+         <Option output="E:/glfw-3.0.4/cb/tests/joysticks.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 joysticks" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="joysticks/fast">
+         <Option output="E:/glfw-3.0.4/cb/tests/joysticks.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 joysticks/fast" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="modes">
+         <Option output="E:/glfw-3.0.4/cb/tests/modes.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 modes" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="modes/fast">
+         <Option output="E:/glfw-3.0.4/cb/tests/modes.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 modes/fast" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="peter">
+         <Option output="E:/glfw-3.0.4/cb/tests/peter.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 peter" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="peter/fast">
+         <Option output="E:/glfw-3.0.4/cb/tests/peter.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 peter/fast" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="reopen">
+         <Option output="E:/glfw-3.0.4/cb/tests/reopen.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 reopen" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="reopen/fast">
+         <Option output="E:/glfw-3.0.4/cb/tests/reopen.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 reopen/fast" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sharing">
+         <Option output="E:/glfw-3.0.4/cb/tests/sharing.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 sharing" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sharing/fast">
+         <Option output="E:/glfw-3.0.4/cb/tests/sharing.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 sharing/fast" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tearing">
+         <Option output="E:/glfw-3.0.4/cb/tests/tearing.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 tearing" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tearing/fast">
+         <Option output="E:/glfw-3.0.4/cb/tests/tearing.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 tearing/fast" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="threads">
+         <Option output="E:/glfw-3.0.4/cb/tests/threads.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 threads" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="threads/fast">
+         <Option output="E:/glfw-3.0.4/cb/tests/threads.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 threads/fast" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="title">
+         <Option output="E:/glfw-3.0.4/cb/tests/title.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 title" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="title/fast">
+         <Option output="E:/glfw-3.0.4/cb/tests/title.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 title/fast" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="windows">
+         <Option output="E:/glfw-3.0.4/cb/tests/windows.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 windows" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="windows/fast">
+         <Option output="E:/glfw-3.0.4/cb/tests/windows.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="E:/glfw-3.0.4/cb/tests" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-DWINVER=0x0501" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="E:/glfw-3.0.4/deps" />
+            <Add directory="E:/glfw-3.0.4/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include" />
+            <Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 windows/fast" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="docs">
+         <Option working_dir="E:/glfw-3.0.4/cb/docs" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/docs/Makefile&quot;  VERBOSE=1 docs" />
+            <CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/docs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/docs/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/glfw-3.0.4/cb/docs/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="E:/glfw-3.0.4/deps/getopt.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/deps/tinycthread.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/examples/boing.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/examples/gears.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/examples/heightmap.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/examples/simple.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/examples/splitview.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/examples/wave.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/src/clipboard.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/src/context.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/src/gamma.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/src/init.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/src/input.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/src/joystick.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/src/monitor.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/src/time.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/src/wgl_context.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/src/win32_clipboard.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/src/win32_gamma.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/src/win32_init.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/src/win32_joystick.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/src/win32_monitor.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/src/win32_time.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/src/win32_window.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/src/window.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/tests/accuracy.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/tests/clipboard.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/tests/defaults.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/tests/events.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/tests/fsaa.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/tests/gamma.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/tests/glfwinfo.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/tests/iconify.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/tests/joysticks.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/tests/modes.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/tests/peter.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/tests/reopen.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/tests/sharing.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/tests/tearing.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/tests/threads.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/tests/title.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/tests/windows.c">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/cb/src/glfw_config.h">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/deps/getopt.h">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/deps/tinycthread.h">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/include/GLFW/glfw3.h">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/include/GLFW/glfw3native.h">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/src/internal.h">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/src/wgl_platform.h">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/src/win32_platform.h">
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/cmake_uninstall.cmake.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/docs/Doxyfile.in">
+          <Option virtualFolder="CMake Files\docs\" />
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/docs/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\docs\" />
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/src/glfw_config.h.in">
+          <Option virtualFolder="CMake Files\src\" />
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/src/glfwConfig.cmake.in">
+          <Option virtualFolder="CMake Files\src\" />
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/src/glfwConfigVersion.cmake.in">
+          <Option virtualFolder="CMake Files\src\" />
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\" />
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/examples/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\" />
+      </Unit>
+      <Unit filename="E:/glfw-3.0.4/tests/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

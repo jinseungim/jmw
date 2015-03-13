@@ -1,0 +1,2 @@
+﻿  pngunknown.c
+LINK : fatal error LNK1181: 'libpng16.lib' 입력 파일을 열 수 없습니다.

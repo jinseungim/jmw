@@ -1,0 +1,2 @@
+﻿  pngvalid.c
+E:\newData\libsrc\zlib-1.2.8\zlib.h(34): fatal error C1083: 포함 파일을 열 수 없습니다. 'zconf.h': No such file or directory

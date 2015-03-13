@@ -1,0 +1,30 @@
+--------------------
+./configure
+Thu Nov 20 10:40:04     2014
+Checking for gcc...
+=== ztest3308.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+gcc -c ztest3308.c
+... using gcc
+Please use win32/Makefile.gcc instead.
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure -prefix=/mingw
+Thu Nov 20 10:45:19     2014
+Checking for gcc...
+=== ztest6224.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+gcc -c ztest6224.c
+... using gcc
+Please use win32/Makefile.gcc instead.
+** ./configure aborting.
+--------------------
+
+

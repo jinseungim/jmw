@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="glfw_cb_test" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/glfw_cb_test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-Wno-reorder" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D__MINGW__" />
+					<Add directory="../middleware/inc/msvc" />
+					<Add directory="../libsrc/gmock-1.7.0/include" />
+					<Add directory="../libsrc/gmock-1.7.0/gtest/include" />
+					<Add directory="../middleware" />
+					<Add directory="../middleware/scene" />
+					<Add directory="../middleware/tools" />
+					<Add directory="../classes" />
+					<Add directory="../middleware/inc" />
+					<Add directory="../middleware/inc/freetype" />
+				</Compiler>
+				<Linker>
+					<Add option="-lgdi32" />
+					<Add library="..\libs\mingw\libpng.a" />
+					<Add library="..\libs\mingw\lib7z.a" />
+					<Add library="..\libs\mingw\glfw3dll.a" />
+					<Add library="C:\MinGW\lib\libopengl32.a" />
+					<Add library="..\libs\mingw\libgmock.a" />
+					<Add library="C:\MinGW\lib\libz.a" />
+					<Add library="..\libs\mingw\libfreetype.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/glfw_cb_test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="middleware" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="../classes/AppDelegate.cpp" />
+		<Unit filename="../classes/AppDelegate.h" />
+		<Unit filename="../classes/RedLayer.cpp" />
+		<Unit filename="../classes/RedLayer.h" />
+		<Unit filename="../classes/TestLayer.cpp" />
+		<Unit filename="../classes/TestLayer.h" />
+		<Unit filename="../classes/TestScene.cpp" />
+		<Unit filename="../classes/TestScene.h" />
+		<Unit filename="../classes/TestThread.cpp" />
+		<Unit filename="../classes/TestThread.h" />
+		<Unit filename="../middleware/AppMain.cpp" />
+		<Unit filename="../middleware/AppMain.h" />
+		<Unit filename="../middleware/Application.h" />
+		<Unit filename="../middleware/Configuration.cpp" />
+		<Unit filename="../middleware/Configuration.h" />
+		<Unit filename="../middleware/DebugLog.cpp" />
+		<Unit filename="../middleware/DebugLog.h" />
+		<Unit filename="../middleware/Director.cpp" />
+		<Unit filename="../middleware/Director.h" />
+		<Unit filename="../middleware/Message.cpp" />
+		<Unit filename="../middleware/Message.h" />
+		<Unit filename="../middleware/Object.cpp" />
+		<Unit filename="../middleware/Object.h" />
+		<Unit filename="../middleware/PlatformMacros.h" />
+		<Unit filename="../middleware/RunTime.cpp" />
+		<Unit filename="../middleware/RunTime.h" />
+		<Unit filename="../middleware/Scheduler.cpp" />
+		<Unit filename="../middleware/Scheduler.h" />
+		<Unit filename="../middleware/jmw.h" />
+		<Unit filename="../middleware/scene/Drawable.cpp" />
+		<Unit filename="../middleware/scene/Drawable.h" />
+		<Unit filename="../middleware/scene/Image.cpp" />
+		<Unit filename="../middleware/scene/Image.h" />
+		<Unit filename="../middleware/scene/Layer.cpp" />
+		<Unit filename="../middleware/scene/Layer.h" />
+		<Unit filename="../middleware/scene/Node.cpp" />
+		<Unit filename="../middleware/scene/Node.h" />
+		<Unit filename="../middleware/scene/Scene.cpp" />
+		<Unit filename="../middleware/scene/Scene.h" />
+		<Unit filename="../middleware/scene/Sprite.cpp" />
+		<Unit filename="../middleware/scene/Sprite.h" />
+		<Unit filename="../middleware/scene/Text.cpp" />
+		<Unit filename="../middleware/scene/Text.h" />
+		<Unit filename="../middleware/tools/FontManager.cpp" />
+		<Unit filename="../middleware/tools/FontManager.h" />
+		<Unit filename="../middleware/tools/Point.h" />
+		<Unit filename="../middleware/tools/Rect.cpp" />
+		<Unit filename="../middleware/tools/Rect.h" />
+		<Unit filename="../middleware/tools/SevenZDec.cpp" />
+		<Unit filename="../middleware/tools/SevenZDec.h" />
+		<Unit filename="../middleware/tools/Stack.h" />
+		<Unit filename="../middleware/tools/TextureManager.cpp" />
+		<Unit filename="../middleware/tools/TextureManager.h" />
+		<Unit filename="../middleware/tools/Thread.cpp" />
+		<Unit filename="../middleware/tools/Thread.h" />
+		<Unit filename="../middleware/tools/Touchable.h" />
+		<Unit filename="../middleware/tools/Util.cpp" />
+		<Unit filename="../middleware/tools/Util.h" />
+		<Unit filename="../src/AppDelegate.h" />
+		<Unit filename="../src/TestCase.h" />
+		<Unit filename="../src/main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

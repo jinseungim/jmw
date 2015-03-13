@@ -1,0 +1,48 @@
+PROG = liblzma.a
+CXX = g++
+AR_RC = ar rcs
+RANLIB = ranlib
+LIB =
+RM = rm -f
+CFLAGS = -c -O2 -Wall -D_7ZIP_ST
+
+OBJS = \
+  Alloc.o \
+  LzFind.o \
+  LzFindMt.o \
+  LzmaDec.o \
+  LzmaEnc.o \
+  LzmaLib.o \
+  Threads.o \
+
+
+all: $(PROG)
+
+$(PROG): $(OBJS)
+	#$(CXX) -o $(PROG) $(LDFLAGS) $(OBJS) $(LIB) $(LIB2)
+	$(AR_RC) $@ $(OBJS)
+	$(RANLIB) $@
+
+Alloc.o: ../../Alloc.c
+	$(CXX) $(CFLAGS) ../../Alloc.c
+
+LzFind.o: ../../LzFind.c
+	$(CXX) $(CFLAGS) ../../LzFind.c
+
+LzFindMt.o: ../../LzFindMt.c
+	$(CXX) $(CFLAGS) ../../LzFindMt.c
+	
+LzmaDec.o: ../../LzmaDec.c
+	$(CXX) $(CFLAGS) ../../LzmaDec.c
+
+LzmaEnc.o: ../../LzmaEnc.c
+	$(CXX) $(CFLAGS) ../../LzmaEnc.c
+
+LzmaLib.o: ../../LzmaLib.c
+	$(CXX) $(CFLAGS) ../../LzmaLib.c
+
+Threads.o: ../../Threads.c
+	$(CXX) $(CFLAGS) ../../Threads.c
+
+clean:
+	-$(RM) $(PROG) $(OBJS)

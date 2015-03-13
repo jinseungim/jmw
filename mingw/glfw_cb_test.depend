@@ -1,0 +1,1045 @@
+# depslib dependency file v1.0
+1413877450 source:e:\newdata\glfw_cb\main.cpp
+	<windows.h>
+	<GLFW/glfw3.h>
+	<cassert>
+	<iostream>
+	<stdexcept>
+	"AppMain.h"
+
+1388487978 e:\newdata\libs\glfw-3.0.4\include\glfw\glfw3.h
+	<stddef.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<GLES3/gl3.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1416298164 source:e:\newdata\midleware\appmain.cpp
+	"AppMain.h"
+	"AppMain.h"
+
+1416297858 e:\newdata\midleware\appmain.h
+
+1419820576 source:e:\newdata\src\main.cpp
+	<cassert>
+	<iostream>
+	<stdexcept>
+	<crtdbg.h>
+	"jmw.h"
+	"AppDelegate.h"
+	"TestCase.h"
+
+1416297613 e:\newdata\midleware\runtime.h
+	<sys/time.h>
+	<Windows.h>
+
+1416297664 source:e:\newdata\midleware\runtime.cpp
+	"RunTime.h"
+
+1416297561 e:\newdata\midleware\scheduler.h
+
+1416297578 source:e:\newdata\midleware\scheduler.cpp
+	"Scheduler.h"
+	"RunTime.h"
+
+1414723635 source:e:\newdata\midleware\configuration.cpp
+	"Configuration.h"
+
+1414723144 e:\newdata\midleware\configuration.h
+	"PlatformMacros.h"
+	"DebugLog.h"
+
+1414735396 e:\newdata\midleware\debuglog.h
+	<cstdio>
+	<ctime>
+	<assert.h>
+	<android/log.h>
+	<cstdarg>
+
+1416382932 e:\newdata\midleware\object.h
+
+1414723689 source:e:\newdata\midleware\debuglog.cpp
+	"Configuration.h"
+	"DebugLog.h"
+	<iostream>
+
+1416383816 source:e:\newdata\midleware\object.cpp
+	"Object.h"
+
+1416384376 e:\newdata\midleware\jmw.h
+	<vector>
+	<list>
+	<map>
+	<deque>
+	<string>
+	<functional>
+	<typeinfo>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<OpenGLES/ES1/gl.h>
+	<OpenGLES/ES1/glext.h>
+	<OpenGLES/ES2/gl.h>
+	<OpenGLES/ES2/glext.h>
+	<Windows.h>
+	<GLFW/glfw3.h>
+	"Configuration.h"
+	"PlatformMacros.h"
+	"Stack.h"
+	"Queue.h"
+	"Point.h"
+	"Size.h"
+	"Message.h"
+	"Object.h"
+	"Node.h"
+	"Drawable.h"
+	"Scene.h"
+	"Layer.h"
+	"RunTime.h"
+	"Scheduler.h"
+	"Director.h"
+	"Application.h"
+	"AppMain.h"
+
+1416384530 e:\newdata\midleware\platformmacros.h
+
+1416301689 e:\newdata\midleware\director.h
+
+1416384160 source:e:\newdata\midleware\director.cpp
+	"Director.h"
+	"scene\Scene.h"
+
+1416377833 e:\newdata\midleware\tools\stack.h
+	<string>
+	<vector>
+	<cstdlib>
+	<stdexcept>
+	<iostream>
+
+1416382778 e:\newdata\midleware\scene\scene.h
+
+1416384167 source:e:\newdata\midleware\scene\scene.cpp
+	"Scene.h"
+
+1414742474 e:\newdata\src\testscene.h
+	"jml.h"
+	"Scene.h"
+
+1414742550 source:e:\newdata\src\testscene.cpp
+	"TestScene.h"
+
+1416459700 e:\newdata\src\testcase.h
+	"jmw.h"
+	"TestScene.h"
+	<gmock\gmock.h>
+	<gtest\gtest.h>
+
+1379469016 e:\newdata\libs\gmock-1.7.0\include\gmock\gmock.h
+	"gmock/gmock-actions.h"
+	"gmock/gmock-cardinalities.h"
+	"gmock/gmock-generated-actions.h"
+	"gmock/gmock-generated-function-mockers.h"
+	"gmock/gmock-generated-nice-strict.h"
+	"gmock/gmock-generated-matchers.h"
+	"gmock/gmock-matchers.h"
+	"gmock/gmock-more-actions.h"
+	"gmock/gmock-more-matchers.h"
+	"gmock/internal/gmock-internal-utils.h"
+
+1379469016 e:\newdata\libs\gmock-1.7.0\include\gmock\gmock-actions.h
+	<errno.h>
+	<algorithm>
+	<string>
+	"gmock/internal/gmock-internal-utils.h"
+	"gmock/internal/gmock-port.h"
+
+1379469016 e:\newdata\libs\gmock-1.7.0\include\gmock\internal\gmock-internal-utils.h
+	<stdio.h>
+	<ostream>
+	<string>
+	"gmock/internal/gmock-generated-internal-utils.h"
+	"gmock/internal/gmock-port.h"
+	"gtest/gtest.h"
+
+1379469016 e:\newdata\libs\gmock-1.7.0\include\gmock\internal\gmock-generated-internal-utils.h
+	"gmock/internal/gmock-port.h"
+
+1379469016 e:\newdata\libs\gmock-1.7.0\include\gmock\internal\gmock-port.h
+	<assert.h>
+	<stdlib.h>
+	<iostream>
+	"gtest/internal/gtest-linked_ptr.h"
+	"gtest/internal/gtest-port.h"
+
+1338433212 e:\newdata\libs\gmock-1.7.0\gtest\include\gtest\internal\gtest-linked_ptr.h
+	<stdlib.h>
+	<assert.h>
+	"gtest/internal/gtest-port.h"
+
+1362036012 e:\newdata\libs\gmock-1.7.0\gtest\include\gtest\internal\gtest-port.h
+	<ctype.h>
+	<stddef.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<AvailabilityMacros.h>
+	<TargetConditionals.h>
+	<iostream>
+	<sstream>
+	<string>
+	<unistd.h>
+	<strings.h>
+	<direct.h>
+	<io.h>
+	<android/api-level.h>
+	<regex.h>
+	<typeinfo>
+	<pthread.h>
+	<time.h>
+	"gtest/internal/gtest-tuple.h"
+	<tuple>
+	<tuple>
+	<tr1/tuple>
+	<tr1/tuple>
+	<tuple>
+	<vector>
+
+1361926364 e:\newdata\libs\gmock-1.7.0\gtest\include\gtest\internal\gtest-tuple.h
+	<utility>
+
+1371697118 e:\newdata\libs\gmock-1.7.0\gtest\include\gtest\gtest.h
+	<limits>
+	<ostream>
+	<vector>
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-string.h"
+	"gtest/gtest-death-test.h"
+	"gtest/gtest-message.h"
+	"gtest/gtest-param-test.h"
+	"gtest/gtest-printers.h"
+	"gtest/gtest_prod.h"
+	"gtest/gtest-test-part.h"
+	"gtest/gtest-typed-test.h"
+	"gtest/gtest_pred_impl.h"
+
+1379469036 e:\newdata\libs\gmock-1.7.0\gtest\include\gtest\internal\gtest-internal.h
+	"gtest/internal/gtest-port.h"
+	<stdlib.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<unistd.h>
+	<stdexcept>
+	<ctype.h>
+	<float.h>
+	<string.h>
+	<iomanip>
+	<limits>
+	<set>
+	"gtest/gtest-message.h"
+	"gtest/internal/gtest-string.h"
+	"gtest/internal/gtest-filepath.h"
+	"gtest/internal/gtest-type-util.h"
+
+1362036012 e:\newdata\libs\gmock-1.7.0\gtest\include\gtest\gtest-message.h
+	<limits>
+	"gtest/internal/gtest-port.h"
+
+1362036012 e:\newdata\libs\gmock-1.7.0\gtest\include\gtest\internal\gtest-string.h
+	<mem.h>
+	<string.h>
+	<string>
+	"gtest/internal/gtest-port.h"
+
+1361926364 e:\newdata\libs\gmock-1.7.0\gtest\include\gtest\internal\gtest-filepath.h
+	"gtest/internal/gtest-string.h"
+
+1362036012 e:\newdata\libs\gmock-1.7.0\gtest\include\gtest\internal\gtest-type-util.h
+	"gtest/internal/gtest-port.h"
+	<cxxabi.h>
+	<acxx_demangle.h>
+
+1338439170 e:\newdata\libs\gmock-1.7.0\gtest\include\gtest\gtest-death-test.h
+	"gtest/internal/gtest-death-test-internal.h"
+
+1361926364 e:\newdata\libs\gmock-1.7.0\gtest\include\gtest\internal\gtest-death-test-internal.h
+	"gtest/internal/gtest-internal.h"
+	<stdio.h>
+
+1338439170 e:\newdata\libs\gmock-1.7.0\gtest\include\gtest\gtest-param-test.h
+	"gtest/internal/gtest-port.h"
+	<utility>
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-param-util.h"
+	"gtest/internal/gtest-param-util-generated.h"
+
+1361926364 e:\newdata\libs\gmock-1.7.0\gtest\include\gtest\internal\gtest-param-util.h
+	<iterator>
+	<utility>
+	<vector>
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-linked_ptr.h"
+	"gtest/internal/gtest-port.h"
+	"gtest/gtest-printers.h"
+
+1361926364 e:\newdata\libs\gmock-1.7.0\gtest\include\gtest\gtest-printers.h
+	<ostream>
+	<sstream>
+	<string>
+	<utility>
+	<vector>
+	"gtest/internal/gtest-port.h"
+	"gtest/internal/gtest-internal.h"
+
+1338433212 e:\newdata\libs\gmock-1.7.0\gtest\include\gtest\internal\gtest-param-util-generated.h
+	"gtest/internal/gtest-param-util.h"
+	"gtest/internal/gtest-port.h"
+
+1288761252 e:\newdata\libs\gmock-1.7.0\gtest\include\gtest\gtest_prod.h
+
+1361926364 e:\newdata\libs\gmock-1.7.0\gtest\include\gtest\gtest-test-part.h
+	<iosfwd>
+	<vector>
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-string.h"
+
+1298428886 e:\newdata\libs\gmock-1.7.0\gtest\include\gtest\gtest-typed-test.h
+	"gtest/internal/gtest-port.h"
+	"gtest/internal/gtest-type-util.h"
+
+1338439170 e:\newdata\libs\gmock-1.7.0\gtest\include\gtest\gtest_pred_impl.h
+
+1379469016 e:\newdata\libs\gmock-1.7.0\include\gmock\gmock-cardinalities.h
+	<limits.h>
+	<ostream>
+	"gmock/internal/gmock-port.h"
+	"gtest/gtest.h"
+
+1379469016 e:\newdata\libs\gmock-1.7.0\include\gmock\gmock-generated-actions.h
+	"gmock/gmock-actions.h"
+	"gmock/internal/gmock-port.h"
+
+1379469016 e:\newdata\libs\gmock-1.7.0\include\gmock\gmock-generated-function-mockers.h
+	"gmock/gmock-spec-builders.h"
+	"gmock/internal/gmock-internal-utils.h"
+
+1379469016 e:\newdata\libs\gmock-1.7.0\include\gmock\gmock-spec-builders.h
+	<map>
+	<set>
+	<sstream>
+	<string>
+	<vector>
+	<stdexcept>
+	"gmock/gmock-actions.h"
+	"gmock/gmock-cardinalities.h"
+	"gmock/gmock-matchers.h"
+	"gmock/internal/gmock-internal-utils.h"
+	"gmock/internal/gmock-port.h"
+	"gtest/gtest.h"
+
+1379469016 e:\newdata\libs\gmock-1.7.0\include\gmock\gmock-matchers.h
+	<math.h>
+	<algorithm>
+	<iterator>
+	<limits>
+	<ostream>
+	<sstream>
+	<string>
+	<utility>
+	<vector>
+	"gmock/internal/gmock-internal-utils.h"
+	"gmock/internal/gmock-port.h"
+	"gtest/gtest.h"
+	<initializer_list>
+
+1379469016 e:\newdata\libs\gmock-1.7.0\include\gmock\gmock-generated-nice-strict.h
+	"gmock/gmock-spec-builders.h"
+	"gmock/internal/gmock-port.h"
+
+1379469016 e:\newdata\libs\gmock-1.7.0\include\gmock\gmock-generated-matchers.h
+	<iterator>
+	<sstream>
+	<string>
+	<vector>
+	"gmock/gmock-matchers.h"
+
+1379469016 e:\newdata\libs\gmock-1.7.0\include\gmock\gmock-more-actions.h
+	<algorithm>
+	"gmock/gmock-generated-actions.h"
+
+1379469016 e:\newdata\libs\gmock-1.7.0\include\gmock\gmock-more-matchers.h
+	"gmock/gmock-generated-matchers.h"
+
+1416297916 e:\newdata\middlelayer\application.h
+
+1415087061 source:e:\newdata\src\appdelegate.cpp
+	"jml.h"
+	"AppDelegate.h"
+	"TestScene.h"
+
+1415086819 e:\newdata\src\appdelegate.h
+
+1416459488 source:e:\newdata\classes\appdelegate.cpp
+	"jmw.h"
+	"AppDelegate.h"
+	"TestLayer.h"
+	"RedLayer.h"
+
+1416459497 e:\newdata\classes\appdelegate.h
+
+1416459529 e:\newdata\classes\testscene.h
+	"jmw.h"
+	"Scene.h"
+
+1416459907 source:e:\newdata\classes\testscene.cpp
+	"jmw.h"
+	"TestScene.h"
+
+1415090001 e:\newdata\classes\redscene.h
+	"jml.h"
+	"Scene.h"
+
+1415092840 source:e:\newdata\classes\redscene.cpp
+	"RedScene.h"
+
+1416301744 e:\newdata\midleware\tools\point.h
+
+1416385038 e:\newdata\midleware\message.h
+
+1416377111 source:e:\newdata\midleware\message.cpp
+	"jml.h"
+	"Message.h"
+
+1416381379 e:\newdata\midleware\scene\node.h
+
+1416378831 e:\newdata\midleware\scene\drawable.h
+
+1416378938 source:e:\newdata\midleware\scene\drawable.cpp
+	"Drawable.h"
+
+1416381385 source:e:\newdata\midleware\scene\node.cpp
+	"Node.h"
+
+1416301627 e:\newdata\midleware\tools\size.h
+
+1416381711 e:\newdata\midleware\scene\layer.h
+
+1388487978 e:\newdata\libsrc\glfw-3.0.4\include\glfw\glfw3.h
+	<stddef.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<GLES3/gl3.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1419327419 e:\newdata\classes\testlayer.h
+	"jmw.h"
+
+1419327415 e:\newdata\classes\redlayer.h
+	"jmw.h"
+
+1418889163 source:e:\newdata\classes\redlayer.cpp
+	"RedLayer.h"
+	"TestThread.h"
+
+1419580908 source:e:\newdata\classes\testlayer.cpp
+	"TestLayer.h"
+
+1416381746 source:e:\newdata\midleware\scene\layer.cpp
+	"Layer.h"
+
+1379469016 e:\newdata\libsrc\gmock-1.7.0\include\gmock\gmock.h
+	"gmock/gmock-actions.h"
+	"gmock/gmock-cardinalities.h"
+	"gmock/gmock-generated-actions.h"
+	"gmock/gmock-generated-function-mockers.h"
+	"gmock/gmock-generated-nice-strict.h"
+	"gmock/gmock-generated-matchers.h"
+	"gmock/gmock-matchers.h"
+	"gmock/gmock-more-actions.h"
+	"gmock/gmock-more-matchers.h"
+	"gmock/internal/gmock-internal-utils.h"
+
+1379469016 e:\newdata\libsrc\gmock-1.7.0\include\gmock\gmock-actions.h
+	<errno.h>
+	<algorithm>
+	<string>
+	"gmock/internal/gmock-internal-utils.h"
+	"gmock/internal/gmock-port.h"
+
+1379469016 e:\newdata\libsrc\gmock-1.7.0\include\gmock\internal\gmock-internal-utils.h
+	<stdio.h>
+	<ostream>
+	<string>
+	"gmock/internal/gmock-generated-internal-utils.h"
+	"gmock/internal/gmock-port.h"
+	"gtest/gtest.h"
+
+1379469016 e:\newdata\libsrc\gmock-1.7.0\include\gmock\internal\gmock-generated-internal-utils.h
+	"gmock/internal/gmock-port.h"
+
+1379469016 e:\newdata\libsrc\gmock-1.7.0\include\gmock\internal\gmock-port.h
+	<assert.h>
+	<stdlib.h>
+	<iostream>
+	"gtest/internal/gtest-linked_ptr.h"
+	"gtest/internal/gtest-port.h"
+
+1338433212 e:\newdata\libsrc\gmock-1.7.0\gtest\include\gtest\internal\gtest-linked_ptr.h
+	<stdlib.h>
+	<assert.h>
+	"gtest/internal/gtest-port.h"
+
+1362036012 e:\newdata\libsrc\gmock-1.7.0\gtest\include\gtest\internal\gtest-port.h
+	<ctype.h>
+	<stddef.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<AvailabilityMacros.h>
+	<TargetConditionals.h>
+	<iostream>
+	<sstream>
+	<string>
+	<unistd.h>
+	<strings.h>
+	<direct.h>
+	<io.h>
+	<android/api-level.h>
+	<regex.h>
+	<typeinfo>
+	<pthread.h>
+	<time.h>
+	"gtest/internal/gtest-tuple.h"
+	<tuple>
+	<tuple>
+	<tr1/tuple>
+	<tr1/tuple>
+	<tuple>
+	<vector>
+
+1361926364 e:\newdata\libsrc\gmock-1.7.0\gtest\include\gtest\internal\gtest-tuple.h
+	<utility>
+
+1371697118 e:\newdata\libsrc\gmock-1.7.0\gtest\include\gtest\gtest.h
+	<limits>
+	<ostream>
+	<vector>
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-string.h"
+	"gtest/gtest-death-test.h"
+	"gtest/gtest-message.h"
+	"gtest/gtest-param-test.h"
+	"gtest/gtest-printers.h"
+	"gtest/gtest_prod.h"
+	"gtest/gtest-test-part.h"
+	"gtest/gtest-typed-test.h"
+	"gtest/gtest_pred_impl.h"
+
+1379469036 e:\newdata\libsrc\gmock-1.7.0\gtest\include\gtest\internal\gtest-internal.h
+	"gtest/internal/gtest-port.h"
+	<stdlib.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<unistd.h>
+	<stdexcept>
+	<ctype.h>
+	<float.h>
+	<string.h>
+	<iomanip>
+	<limits>
+	<set>
+	"gtest/gtest-message.h"
+	"gtest/internal/gtest-string.h"
+	"gtest/internal/gtest-filepath.h"
+	"gtest/internal/gtest-type-util.h"
+
+1362036012 e:\newdata\libsrc\gmock-1.7.0\gtest\include\gtest\gtest-message.h
+	<limits>
+	"gtest/internal/gtest-port.h"
+
+1362036012 e:\newdata\libsrc\gmock-1.7.0\gtest\include\gtest\internal\gtest-string.h
+	<mem.h>
+	<string.h>
+	<string>
+	"gtest/internal/gtest-port.h"
+
+1361926364 e:\newdata\libsrc\gmock-1.7.0\gtest\include\gtest\internal\gtest-filepath.h
+	"gtest/internal/gtest-string.h"
+
+1362036012 e:\newdata\libsrc\gmock-1.7.0\gtest\include\gtest\internal\gtest-type-util.h
+	"gtest/internal/gtest-port.h"
+	<cxxabi.h>
+	<acxx_demangle.h>
+
+1338439170 e:\newdata\libsrc\gmock-1.7.0\gtest\include\gtest\gtest-death-test.h
+	"gtest/internal/gtest-death-test-internal.h"
+
+1361926364 e:\newdata\libsrc\gmock-1.7.0\gtest\include\gtest\internal\gtest-death-test-internal.h
+	"gtest/internal/gtest-internal.h"
+	<stdio.h>
+
+1338439170 e:\newdata\libsrc\gmock-1.7.0\gtest\include\gtest\gtest-param-test.h
+	"gtest/internal/gtest-port.h"
+	<utility>
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-param-util.h"
+	"gtest/internal/gtest-param-util-generated.h"
+
+1361926364 e:\newdata\libsrc\gmock-1.7.0\gtest\include\gtest\internal\gtest-param-util.h
+	<iterator>
+	<utility>
+	<vector>
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-linked_ptr.h"
+	"gtest/internal/gtest-port.h"
+	"gtest/gtest-printers.h"
+
+1361926364 e:\newdata\libsrc\gmock-1.7.0\gtest\include\gtest\gtest-printers.h
+	<ostream>
+	<sstream>
+	<string>
+	<utility>
+	<vector>
+	"gtest/internal/gtest-port.h"
+	"gtest/internal/gtest-internal.h"
+
+1338433212 e:\newdata\libsrc\gmock-1.7.0\gtest\include\gtest\internal\gtest-param-util-generated.h
+	"gtest/internal/gtest-param-util.h"
+	"gtest/internal/gtest-port.h"
+
+1288761252 e:\newdata\libsrc\gmock-1.7.0\gtest\include\gtest\gtest_prod.h
+
+1361926364 e:\newdata\libsrc\gmock-1.7.0\gtest\include\gtest\gtest-test-part.h
+	<iosfwd>
+	<vector>
+	"gtest/internal/gtest-internal.h"
+	"gtest/internal/gtest-string.h"
+
+1298428886 e:\newdata\libsrc\gmock-1.7.0\gtest\include\gtest\gtest-typed-test.h
+	"gtest/internal/gtest-port.h"
+	"gtest/internal/gtest-type-util.h"
+
+1338439170 e:\newdata\libsrc\gmock-1.7.0\gtest\include\gtest\gtest_pred_impl.h
+
+1379469016 e:\newdata\libsrc\gmock-1.7.0\include\gmock\gmock-cardinalities.h
+	<limits.h>
+	<ostream>
+	"gmock/internal/gmock-port.h"
+	"gtest/gtest.h"
+
+1379469016 e:\newdata\libsrc\gmock-1.7.0\include\gmock\gmock-generated-actions.h
+	"gmock/gmock-actions.h"
+	"gmock/internal/gmock-port.h"
+
+1379469016 e:\newdata\libsrc\gmock-1.7.0\include\gmock\gmock-generated-function-mockers.h
+	"gmock/gmock-spec-builders.h"
+	"gmock/internal/gmock-internal-utils.h"
+
+1379469016 e:\newdata\libsrc\gmock-1.7.0\include\gmock\gmock-spec-builders.h
+	<map>
+	<set>
+	<sstream>
+	<string>
+	<vector>
+	<stdexcept>
+	"gmock/gmock-actions.h"
+	"gmock/gmock-cardinalities.h"
+	"gmock/gmock-matchers.h"
+	"gmock/internal/gmock-internal-utils.h"
+	"gmock/internal/gmock-port.h"
+	"gtest/gtest.h"
+
+1379469016 e:\newdata\libsrc\gmock-1.7.0\include\gmock\gmock-matchers.h
+	<math.h>
+	<algorithm>
+	<iterator>
+	<limits>
+	<ostream>
+	<sstream>
+	<string>
+	<utility>
+	<vector>
+	"gmock/internal/gmock-internal-utils.h"
+	"gmock/internal/gmock-port.h"
+	"gtest/gtest.h"
+	<initializer_list>
+
+1379469016 e:\newdata\libsrc\gmock-1.7.0\include\gmock\gmock-generated-nice-strict.h
+	"gmock/gmock-spec-builders.h"
+	"gmock/internal/gmock-port.h"
+
+1379469016 e:\newdata\libsrc\gmock-1.7.0\include\gmock\gmock-generated-matchers.h
+	<iterator>
+	<sstream>
+	<string>
+	<vector>
+	"gmock/gmock-matchers.h"
+
+1379469016 e:\newdata\libsrc\gmock-1.7.0\include\gmock\gmock-more-actions.h
+	<algorithm>
+	"gmock/gmock-generated-actions.h"
+
+1379469016 e:\newdata\libsrc\gmock-1.7.0\include\gmock\gmock-more-matchers.h
+	"gmock/gmock-generated-matchers.h"
+
+1416377839 e:\newdata\midleware\tools\queue.h
+	<string>
+	<vector>
+	<cstdlib>
+	<stdexcept>
+	<iostream>
+
+1419821376 e:\newdata\middleware\jmw.h
+	<vector>
+	<list>
+	<map>
+	<deque>
+	<cstdio>
+	<string>
+	<functional>
+	<typeinfo>
+	<memory>
+	<sys/types.h>
+	<sys/stat.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	"JniFunc.h"
+	<OpenGLES/ES1/gl.h>
+	<OpenGLES/ES1/glext.h>
+	<OpenGLES/ES2/gl.h>
+	<OpenGLES/ES2/glext.h>
+	<Windows.h>
+	<glew/glew.h>
+	<GLFW/glfw3.h>
+	<GLFW/glfw3native.h>
+	"Configuration.h"
+	"PlatformMacros.h"
+	"Point.h"
+	"Size.h"
+	"Rect.h"
+	"Stack.h"
+	"Queue.h"
+	"Util.h"
+	"Message.h"
+	"Object.h"
+	"Thread.h"
+	"SevenZDec.h"
+	"Node.h"
+	"Touchable.h"
+	"Image.h"
+	"Drawable.h"
+	"Scene.h"
+	"Layer.h"
+	"FontManager.h"
+	"TextureManager.h"
+	"Sprite.h"
+	"Text.h"
+	"RunTime.h"
+	"Scheduler.h"
+	"Director.h"
+	"Application.h"
+	"AppMain.h"
+
+1414723144 e:\newdata\middleware\configuration.h
+	"PlatformMacros.h"
+	"DebugLog.h"
+
+1419821440 e:\newdata\middleware\platformmacros.h
+
+1416386320 e:\newdata\middleware\debuglog.h
+	<cstdio>
+	<ctime>
+	<assert.h>
+	<android/log.h>
+	<cstdarg>
+
+1416459773 e:\newdata\middleware\tools\stack.h
+	<string>
+	<vector>
+	<cstdlib>
+	<stdexcept>
+	<iostream>
+
+1416459748 e:\newdata\middleware\tools\queue.h
+	<string>
+	<vector>
+	<cstdlib>
+	<stdexcept>
+	<iostream>
+
+1416459738 e:\newdata\middleware\tools\point.h
+
+1416459764 e:\newdata\middleware\tools\size.h
+
+1419821217 e:\newdata\middleware\tools\util.h
+
+1418890715 e:\newdata\middleware\message.h
+
+1418805991 e:\newdata\middleware\object.h
+
+1418895560 e:\newdata\middleware\scene\node.h
+
+1419325098 e:\newdata\middleware\scene\drawable.h
+
+1416459730 e:\newdata\middleware\scene\scene.h
+
+1418803939 e:\newdata\middleware\scene\layer.h
+
+1418377044 e:\newdata\middleware\runtime.h
+	<sys/time.h>
+	<Windows.h>
+
+1418968977 e:\newdata\middleware\scheduler.h
+
+1418722807 e:\newdata\middleware\director.h
+
+1416459782 e:\newdata\middleware\application.h
+
+1418692698 e:\newdata\middleware\appmain.h
+
+1418186469 e:\newdata\middleware\tools\thread.h
+	<process.h>
+	<pthread.h>
+
+1418372169 e:\newdata\middleware\tools\sevenzdec.h
+
+1418696728 source:e:\newdata\middleware\appmain.cpp
+	"AppMain.h"
+
+1414723635 source:e:\newdata\middleware\configuration.cpp
+	"Configuration.h"
+
+1414723689 source:e:\newdata\middleware\debuglog.cpp
+	"Configuration.h"
+	"DebugLog.h"
+	<iostream>
+
+1418969027 source:e:\newdata\middleware\director.cpp
+	"Director.h"
+	"scene\Scene.h"
+
+1418715698 source:e:\newdata\middleware\message.cpp
+	"jmw.h"
+	"Message.h"
+
+1416459647 source:e:\newdata\middleware\object.cpp
+	"Object.h"
+
+1418377087 source:e:\newdata\middleware\runtime.cpp
+	"RunTime.h"
+
+1419580721 source:e:\newdata\middleware\scene\drawable.cpp
+	"Drawable.h"
+
+1418969766 source:e:\newdata\middleware\scene\layer.cpp
+	"Layer.h"
+
+1418895567 source:e:\newdata\middleware\scene\node.cpp
+	"Node.h"
+
+1416459671 source:e:\newdata\middleware\scheduler.cpp
+	"Scheduler.h"
+	"RunTime.h"
+
+1417505585 e:\newdata\classes\testthread.h
+
+1419325224 source:e:\newdata\middleware\scene\image.cpp
+	"jmw.h"
+	"Image.h"
+
+1419325195 e:\newdata\middleware\scene\image.h
+
+1419327401 source:e:\newdata\middleware\scene\scene.cpp
+	"Scene.h"
+
+1419575710 source:e:\newdata\middleware\scene\sprite.cpp
+	"Sprite.h"
+
+1418971453 e:\newdata\middleware\scene\sprite.h
+
+1418195705 source:e:\newdata\middleware\tools\sevenzdec.cpp
+	"jmw.h"
+	"SevenZDec.h"
+	"7z/7z.h"
+	"7z/7zAlloc.h"
+	"7z/7zBuf.h"
+	"7z/7zCrc.h"
+	"7z/7zFile.h"
+	"7z/7zVersion.h"
+	<errno.h>
+
+1402903729 e:\newdata\include\7z\7z.h
+	"7zTypes.h"
+
+1384235681 e:\newdata\include\7z\7ztypes.h
+	<stddef.h>
+
+1417423049 e:\newdata\include\7z\7zalloc.h
+	<stdlib.h>
+
+1358499600 e:\newdata\include\7z\7zbuf.h
+	"7zTypes.h"
+
+1358499600 e:\newdata\include\7z\7zcrc.h
+	"7zTypes.h"
+
+1358499600 e:\newdata\include\7z\7zfile.h
+	<windows.h>
+	<stdio.h>
+	"7zTypes.h"
+
+1403422679 e:\newdata\include\7z\7zversion.h
+
+1417506598 source:e:\newdata\middleware\tools\thread.cpp
+	"jmw.h"
+	"Thread.h"
+
+1417505722 source:e:\newdata\classes\testthread.cpp
+	"jmw.h"
+	"TestThread.h"
+
+1419325143 e:\newdata\middleware\tools\texturemanager.h
+
+1419822272 source:e:\newdata\middleware\tools\texturemanager.cpp
+	"TextureManager.h"
+	"png/png.h"
+	<fstream>
+
+1414024084 e:\newdata\include\png\png.h
+	"pnglibconf.h"
+	"pngconf.h"
+
+1414024085 e:\newdata\include\png\pnglibconf.h
+
+1414024084 e:\newdata\include\png\pngconf.h
+	<limits.h>
+	<stddef.h>
+	<stdio.h>
+	<setjmp.h>
+	<time.h>
+
+1419821222 source:e:\newdata\middleware\tools\util.cpp
+	"jmw.h"
+	"Util.h"
+	<fstream>
+
+1418895819 e:\newdata\middleware\tools\rect.h
+
+1418806280 e:\newdata\middleware\tools\touchable.h
+
+1414459431 e:\newdata\include\msvc\glew\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1388487978 e:\newdata\include\msvc\glfw\glfw3.h
+	<stddef.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<GLES3/gl3.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1418894050 source:e:\newdata\middleware\tools\rect.cpp
+	"jmw.h"
+	"Rect.h"
+
+1419581909 e:\newdata\middleware\tools\fontmanager.h
+	<ft2build.h>
+
+1419819228 e:\newdata\middleware\scene\text.h
+	<ft2build.h>
+
+1414459431 e:\newdata\middleware\inc\msvc\glew\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1388487978 e:\newdata\middleware\inc\msvc\glfw\glfw3.h
+	<stddef.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<GLES3/gl3.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1388487978 e:\newdata\middleware\inc\msvc\glfw\glfw3native.h
+	<windows.h>
+	<X11/Xlib.h>
+	<GL/glx.h>
+	<EGL/egl.h>
+
+1402903729 e:\newdata\middleware\inc\7z\7z.h
+	"7zTypes.h"
+
+1384235681 e:\newdata\middleware\inc\7z\7ztypes.h
+	<stddef.h>
+
+1417423049 e:\newdata\middleware\inc\7z\7zalloc.h
+	<stdlib.h>
+
+1358499600 e:\newdata\middleware\inc\7z\7zbuf.h
+	"7zTypes.h"
+
+1358499600 e:\newdata\middleware\inc\7z\7zcrc.h
+	"7zTypes.h"
+
+1358499600 e:\newdata\middleware\inc\7z\7zfile.h
+	<windows.h>
+	<stdio.h>
+	"7zTypes.h"
+
+1403422679 e:\newdata\middleware\inc\7z\7zversion.h
+
+1384303596 e:\newdata\middleware\inc\freetype\ft2build.h
+	<config/ftheader.h>
+
+1384226860 e:\newdata\middleware\inc\freetype\config\ftheader.h
+
+1419821499 source:e:\newdata\middleware\scene\text.cpp
+	"Text.h"
+	<fstream>
+
+1419326679 source:e:\newdata\middleware\tools\fontmanager.cpp
+	"jmw.h"
+	"FontManager.h"
+
+1414024084 e:\newdata\middleware\inc\png\png.h
+	"pnglibconf.h"
+	"pngconf.h"
+
+1414024085 e:\newdata\middleware\inc\png\pnglibconf.h
+
+1414024084 e:\newdata\middleware\inc\png\pngconf.h
+	<limits.h>
+	<stddef.h>
+	<stdio.h>
+	<setjmp.h>
+	<time.h>
+

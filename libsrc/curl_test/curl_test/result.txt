@@ -1,0 +1,39 @@
+{
+"receipt":{"original_purchase_date_pst":"2014-11-04 18:31:24 America/Los_Angeles", 
+"unique_identifier":"83dc26e8f7ab75fd53a3f31a68b873269d25ca69", 
+"original_transaction_id":"700000063906958", 
+"bvrs":"1.2.0", 
+"app_item_id":"844684912", 
+"transaction_id":"700000063906958", 
+"quantity":"1", 
+"unique_vendor_identifier":"6F567875-33BB-469E-8F41-85A10996E244", 
+"product_id":"com.gamevil.fantasywarlord.ios.apple.ww.normal.10Jewels", 
+"item_id":"844685045", 
+"version_external_identifier":"759202891", 
+"bid":"com.gamevil.fantasywarlord.ios.apple.ww.normal", 
+"purchase_date_ms":"1415154684398", 
+"purchase_date":"2014-11-05 02:31:24 Etc/GMT", 
+"purchase_date_pst":"2014-11-04 18:31:24 America/Los_Angeles", 
+"original_purchase_date":"2014-11-05 02:31:24 Etc/GMT",
+"original_purchase_date_ms":"1415154684398"}, 
+ 
+ "status":0}com.gamevil.fantasywarlord.ios.apple.ww.normal.10Jewels
+
+com.gamevil.fantasywarlord.ios.apple.ww.normal.115Jewels
+
+com.gamevil.fantasywarlord.ios.apple.ww.normal.375Jewels
+
+com.gamevil.fantasywarlord.ios.apple.ww.normal.55Jewels
+
+com.gamevil.fantasywarlord.ios.apple.ww.normal.55Jewels
+
+com.gamevil.fantasywarlord.ios.apple.ww.normal.700Jewels
+
+com.gamevil.fantasywarlord.ios.apple.ww.normal.55Jewels
+
+com.gamevil.fantasywarlord.ios.apple.ww.normal.10Jewels
+
+com.gamevil.fantasywarlord.ios.apple.ww.normal.10Jewels
+
+com.gamevil.fantasywarlord.ios.apple.ww.normal.10Jewels
+

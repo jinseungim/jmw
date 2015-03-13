@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="curl_cb_test" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/curl_cb_test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DCURL_STATICLIB" />
+					<Add directory="../curl-7.39.0/mingw/include" />
+					<Add directory="../jsoncpp-src-0.5.0/include" />
+				</Compiler>
+				<Linker>
+					<Add library="..\curl-7.39.0\mingw\lib\libcurl.a" />
+					<Add library="..\openssl-1.0.1j\mingw\lib\libssl.a" />
+					<Add library="..\openssl-1.0.1j\mingw\lib\libcrypto.a" />
+					<Add library="wldap32" />
+					<Add library="ws2_32" />
+					<Add library="gdi32" />
+					<Add library="..\jsoncpp-src-0.5.0\libs\mingw\libjson_mingw_libmt.a" />
+					<Add directory="../../../curl/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/curl_cb_test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

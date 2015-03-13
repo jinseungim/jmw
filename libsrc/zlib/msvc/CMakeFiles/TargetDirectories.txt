@@ -1,0 +1,6 @@
+E:/newData/libsrc/zlib/msvc/CMakeFiles/ALL_BUILD.dir
+E:/newData/libsrc/zlib/msvc/CMakeFiles/ZERO_CHECK.dir
+E:/newData/libsrc/zlib/msvc/CMakeFiles/example.dir
+E:/newData/libsrc/zlib/msvc/CMakeFiles/minigzip.dir
+E:/newData/libsrc/zlib/msvc/CMakeFiles/zlib.dir
+E:/newData/libsrc/zlib/msvc/CMakeFiles/zlibstatic.dir

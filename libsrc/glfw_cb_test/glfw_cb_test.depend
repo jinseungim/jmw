@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1413868438 source:e:\newdata\glfw_cb_test\main.cpp
+	<windows.h>
+	<GLFW/glfw3.h>
+	<cassert>
+	<iostream>
+	<stdexcept>
+
+1388487978 e:\newdata\glfw-3.0.4\include\glfw\glfw3.h
+	<stddef.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<GLES3/gl3.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1413868438 source:e:\newdata\libs\glfw_cb_test\main.cpp
+	<windows.h>
+	<GLFW/glfw3.h>
+	<cassert>
+	<iostream>
+	<stdexcept>
+
+1388487978 e:\newdata\libs\glfw-3.0.4\include\glfw\glfw3.h
+	<stddef.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<GLES3/gl3.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
